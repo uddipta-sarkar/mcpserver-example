@@ -7,6 +7,6 @@ mcp = FastMCP("Demo")
 
 # Add an addition tool
 @mcp.tool()
-def add(a: int, b: int) -> int:
+def add(firstnumber: int, secondnumber: int) -> int:
     """Add two numbers"""
-    return a + b
+    return firstnumber + secondnumber
